@@ -7,6 +7,7 @@ public class App {
       Javalin app = Javalin.create()
           .start(getHerokuAssignedPort());
       app.get("/", ctx -> ctx.result("Hello World"));
+      app.get("/finally", ctx -> ctx.result("Finally. Oh finally."));
   }
 
   private static int getHerokuAssignedPort() {
