@@ -1,2 +1,0 @@
-com/nativeword/playground/App.java
- com.nativeword.playground.App

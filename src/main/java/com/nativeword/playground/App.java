@@ -12,6 +12,7 @@ public class App {
 
   private static int getHerokuAssignedPort() {
     String herokuPort = System.getenv("PORT");
+    console.log("herokuPort:" + herokuPort);
     if (herokuPort != null) {
       return Integer.parseInt(herokuPort);
     }
